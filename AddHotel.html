@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Al Hamdan</title>
+		<link rel="stylesheet" href="styles1.css" type="text/css"/>
+	</head>
+
+	<body>
+		<div id="container">
+			
+		    <header>
+		    	<img src="images/AlHamdan.jpg" alt="" style="width:70px;height:70px;">
+		        <h4>AL-HAMDAN</h4>
+		    </header>
+
+		    <form action="/AlHamdanHotels/adminContent" method="get">
+				<input type='hidden' name='productType' value='Hotels'>
+		    	<p><input name="" style="margin-left: 150px;float: right" class="formbutton" value="Go back" type="submit"/></p>
+		    </form>
+
+			<h3 align="center">Add Hotel</h3>
+	        <fieldset>
+				<div style="width:400px; margin-right:auto; margin-left:auto;">
+					<form action="/AlHamdanHotels/adminContentItemRemoved" method="get">
+						<input type='hidden' name='productType' value='Hotels'>
+
+						<input type='hidden' name='action' value='Add'>
+
+						<input type='hidden' name='Item' value='Hotel'>
+
+						<p><label>Hotel name:</label>
+						<input name="HotelName" id="name" value="" type="text"/></p>
+
+						<p><label>Hotel Location:</label>
+						<input name="Location" id="name" value="" type="text"/></p>
+
+						<p><label>Product ID:</label>
+						<input name="ProductId" id="name" value="" type="text"/></p>
+
+						<p><label>Product name:</label>
+						<input name="ProductName" id="name" value="" type="text"/></p>
+
+						<p><label>Category:</label>
+						<input name="Category" id="name" value="" type="text"/></p>
+
+						<p><label>Type:</label>
+						<input name="Type" id="name" value="" type="text"/></p>
+
+						<p><label>Price:</label>
+						<input name="Price" id="name" value="" type="text"/></p>
+
+						<p><label>Image:</label>
+						<input name="Image" id="name" value="" type="text"/></p>	
+
+						<p><label>SQuantity:</label>
+						<input name="SQuantity" id="name" value="" type="text"/></p>
+
+						<p><label>RQuantity:</label>
+						<input name="RQuantity" id="name" value="" type="text"/></p>
+
+						<p><label>Sales:</label>
+						<input name="Sales" id="name" value="" type="text"/></p>
+
+						<p><label>Description:</label>
+						<input name="RQuantity" id="name" value="" type="text"/></p>
+
+						<p><label>Accessories:</label>
+						<input name="Accessories" id="name" value="" type="text"/></p>
+						
+						<p><input name="" style="margin-left: 150px;" class="formbutton" value="Add" type="submit"/></p>
+					</form>
+				</div>
+	        </fieldset>
+		</div>
+	</body>
+</html>

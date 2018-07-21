@@ -1,0 +1,4 @@
+OrderId,UserId,ProductId,CheckInDate,CheckOutDate,ProductName,Price
+001ID,ssher1@hawk.iit.edu,001R,10/11/17,10/12/17,Superior001,100.0
+SP#788,ssher1@hawk.iit.edu,011R,,,Premier011,250.0
+SP#33,ssher1@hawk.iit.edu,011R,2017-11-08,2017-11-14,Premier011,250.0

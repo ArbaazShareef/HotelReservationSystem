@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Al Hamdan</title>
+		<link rel="stylesheet" href="styles1.css" type="text/css"/>
+	</head>
+	<body>
+		<div id="container">
+
+		    <header>
+		    	<img src="images/AlHamdan.jpg" alt="" style="width:70px;height:70px;">
+		        <h4>AL-HAMDAN</h4>
+		    </header>
+
+		    <form action="/AlHamdanHotels/adminContent" method="get">
+				<input type='hidden' name='productType' value='Orders'>
+		    	<p><input name="" style="margin-left: 150px;float: right" class="formbutton" value="Go back" type="submit"/></p>
+		    </form>
+
+			<h3 align="center">Add Order</h3>
+	        <fieldset>
+				<div style="width:400px; margin-right:auto; margin-left:auto;">
+					<form action="/AlHamdanHotels/adminContentItemRemoved" method="get">
+
+						<input type='hidden' name='productType' value='Orders'>
+
+						<input type='hidden' name='action' value='Add'>
+
+						<input type='hidden' name='Item' value='Order'>
+
+						<p><label>Order Id:</label>
+						<input name="OrderId" id="name" value="" type="text"/></p>
+
+						<p><label>Check In Date:</label>
+						<input name="CheckInDate" id="name" value="" type="text"/></p>
+
+						<p><label>CheckOutDate:</label>
+						<input name="CheckOutDate" id="name" value="" type="text"/></p>
+
+						<p><label>ProductName:</label>
+						<input name="ProductName" id="name" value="" type="text"/></p>
+
+						<p><label>Price:</label>
+						<input name="Price" id="name" value="" type="text"/></p>	
+
+						<p><label>Quantity:</label>
+						<input name="quantity" id="name" value="" type="text"/></p>
+
+						<p><label>Date of Order:</label>
+						<input name="dateofOrder" id="name" value="" type="text"/></p>
+
+						<p><label>Customer Email Id:</label>
+						<input name="customerEmailId" id="name" value="" type="text"/></p>
+
+						<p><label>Address:</label>
+						<input name="Address" id="name" value="" type="text"/></p>
+
+						<p><input name="" style="margin-left: 150px;" class="formbutton" value="Add" type="submit" /></p>
+					</form>
+				</div>
+	        </fieldset>
+		</div>
+	</body>
+</html>

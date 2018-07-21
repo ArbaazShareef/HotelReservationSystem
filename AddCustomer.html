@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Al Hamdan</title>
+		<link rel="stylesheet" href="styles1.css" type="text/css"/>
+	</head>
+	<body>
+		<div id="container">
+			
+		    <header>
+		    	<img src="images/AlHamdan.jpg" alt="" style="width:70px;height:70px;">
+		        <h4>AL-HAMDAN</h4>
+		    </header>
+
+		    <form action="/AlHamdanHotels/adminContent" method="get">
+				<input type='hidden' name='productType' value='Customers'>
+		    	<p><input name="" style="margin-left: 150px;float: right" class="formbutton" value="Go back" type="submit"/></p>
+		    </form>
+			
+			<h3 align="center">Add Customer</h3>
+
+            <fieldset>
+				<div style="width:400px; margin-right:auto; margin-left:auto;">
+					<form action="/AlHamdanHotels/adminContentItemRemoved" method="get">
+
+						<input type='hidden' name='productType' value='Customers'>
+
+						<input type='hidden' name='action' value='Add'>
+
+						<input type='hidden' name='Item' value='Customer'>
+
+						<p><label>First Name:</label>
+						<input name="firstName" id="name" value="" type="text"/></p>
+
+						<p><label>Last Name:</label>
+						<input name="lastName" id="name" value="" type="text"/></p>
+
+						<p><label>Email:</label>
+						<input name="emailId" id="name" value="" type="text"/></p>	
+
+						<p><label>PhoneNumber:</label>
+						<input name="phoneNumber" id="name" value="" type="text"/></p>
+
+						<p><label>Password:</label>
+						<input name="password" id="name" value="" type="text"/></p>
+
+						<p><input name="" style="margin-left: 150px;" class="formbutton" value="Add" type="submit" /></p>
+					</form>
+				</div>
+            </fieldset>
+		</div>
+	</body>
+</html>
